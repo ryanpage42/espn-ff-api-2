@@ -1,9 +1,11 @@
 # ESPN FF API
 ## What it is
-A node package written for the purpose of retrieving ESPN fantasy football information from both private and public leagues
+A node package written for the purpose of retrieving ESPN fantasy football information from both private and public leagues.
 
 ## What it needs
-Two cookie values from the ESPN site(espn_s2 and SWID) and a league id.
+If you are requesting private league access, two cookie values from the ESPN site(espn_s2 and SWID) and a league id.
+
+If you have set your league to public, no changes will be necessary.
 
 ## What it does
 Hits the ESPN API and returns a promise that resolves to an object containing what league information you are querying for.
