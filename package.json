@@ -1,16 +1,16 @@
 {
-  "name": "espn-ff-api",
-  "version": "1.0.9",
-  "description": "A node package for accessing the espn fantasy football API",
+  "name": "espn-ff-api-2",
+  "version": "1.0.10",
+  "description": "A node package for accessing the espn fantasy football API with support for requests without cookies.",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Possardt/espn-ff-api"
+    "url": "https://github.com/ryanpage42/espn-ff-api-2"
   },
-  "author": "Ryan Possardt",
+  "author": "Ryan Page",
   "license": "ISC",
   "dependencies": {
     "request": "^2.85.0",
